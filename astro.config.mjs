@@ -1,15 +1,16 @@
 import { defineConfig } from 'astro/config';
 import tailwindcss from '@tailwindcss/vite';
 import sitemap from '@astrojs/sitemap';
-import playformCompress from '@playform/compress';
+import platformCompress from '@playform/compress';
 
 export default defineConfig({
-  site: 'https://love.example.com',
+  site: 'https://xxy421.github.io',
+  base: '/love-page',
   vite: {
     plugins: [tailwindcss()],
   },
   output: 'static',
-  integrations: [sitemap(), playformCompress()],
+  integrations: [sitemap(), platformCompress()],
   i18n: {
     defaultLocale: 'zh-cn',
     locales: ['zh-cn', 'en-us'],
