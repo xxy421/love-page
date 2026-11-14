@@ -6,23 +6,77 @@
     {
       "date": "2026-02-13",
       "label": "相识",
+      "icon": "💑",
       "story": "刚与你相识，便觉你腼腆动人。你的一言一语，如春日细雨，轻轻落进我荒芜沉寂的心底。"
     },
     {
       "date": "2026-02-17",
       "label": "在一起",
+      "icon": "💕",
       "story": "春雨落定，心意落地。我们决定牵手相伴，把往后的日子慢慢写成长诗。"
     }
   ],
   "quotes": [
-    "生日快乐，我的女孩",
+    "始于初见，止于终老",
+    "愿有岁月可回首，且以深情共白头",
+    "斯人若彩虹，遇上方知有",
+    "春风十里，不如你",
     "岁岁平安，年年有我"
   ],
+  "music": {
+    "enabled": false,
+    "autoPlay": false,
+    "playMode": "sequence",
+    "allowModeSwitch": true,
+    "startPolicy": "first",
+    "volume": 0.7,
+    "rememberState": true,
+    "smartShuffleWindow": 3,
+    "tracks": []
+  },
+  "secretMessage": "以后的每一个生日，我都会陪在你身边。",
   "photos": [
     {
       "url": "https://raw.githubusercontent.com/xxy421/love-page/main/fc22721ed5749747e7e0ccd1202623d5.jpg",
-      "caption": "这是我们（这里先放个测试图）"
+      "caption": "我们"
     }
   ],
-  "secretMessage": "以后的每一个生日，我都会在你身边。"
+  "stats": [
+    {
+      "label": "共同爱好",
+      "value": 8,
+      "icon": "🎯"
+    },
+    {
+      "label": "纪念日",
+      "value": 1,
+      "icon": "💕"
+    }
+  ],
+  "timers": [
+    {
+      "label": "相恋时光",
+      "icon": "💕",
+      "date": "2026-02-17"
+    }
+  ],
+  "anniversaries": [
+    {
+      "label": "相恋纪念日",
+      "icon": "💕",
+      "date": "2026-02-17",
+      "easterEggTemplates": {
+        "soon": "💗 距离我们的{displayLabel}还有{gap}天，期待更多美好时光~",
+        "today": "💗 今天是我们的{displayLabel}，感谢陪伴，爱你如初！",
+        "celebrate": "{displayLabel}快乐！愿我们的爱永远甜蜜如初见~"
+      }
+    }
+  ],
+  "anniversaryCountdownThreshold": 10,
+  "sectionOrder": ["stats", "timers", "timeline", "anniversary"],
+  "privacy": {
+    "privateMode": false,
+    "noIndex": true
+  },
+  "defaultTheme": "dark"
 }
